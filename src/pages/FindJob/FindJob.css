@@ -49,26 +49,22 @@
 .custom-pagination .pagination-item:hover {
   background-color: #e3e8ff;
 }
-/* Ensure the container stays responsive and aligns the content in the center */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* Breadcrumb and title alignment */
 .find-job-title {
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 10px;
 }
 
-/* Style for the breadcrumb */
 .breadcrumb {
   font-size: 14px;
   color: #6c757d;
   margin-right: 20px;
 }
 
-/* Input fields and button spacing */
 .find-job-title h4 {
   margin-bottom: 1rem;
 }

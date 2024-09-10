@@ -6,7 +6,6 @@ const EmployerComponent = () => {
     return (
       <div className="container employer-container mt-5 mb-5">
         <div className="row justify-content-center">
-          {/* Candidate Section */}
           <div className="col-md-5 card-section">
             <div className="image-rectangle">
               <img src={candidate} className="img-fluid" alt="Candidate" />
@@ -18,7 +17,6 @@ const EmployerComponent = () => {
             </div>
           </div>
   
-          {/* Employer Section */}
           <div className="col-md-5 card-section">
             <div className="image-rectangle">
               <img src={employer} className="img-fluid" alt="Employer" />

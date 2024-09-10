@@ -20,7 +20,6 @@ const FeaturedJobs = () => {
               <Card.Body>
                 <h5>{job.title}</h5>
                 
-                {/* Badge and Salary */}
                 <div className="d-flex align-items-center mb-3">
                   <Badge
                     bg={
@@ -37,7 +36,6 @@ const FeaturedJobs = () => {
                   <span className="text-muted">Salary: {job.salary}</span>
                 </div>
 
-                {/* logo and company name */}
                 <div className="d-flex align-items-center mb-2">
                   <div
                     style={{
@@ -57,7 +55,6 @@ const FeaturedJobs = () => {
                   <h6 className="mb-0">{job.company}</h6>
                 </div>
 
-                {/* Location and Bookmark icon */}
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="text-muted">
                     <FaMapMarkerAlt /> {job.location}
