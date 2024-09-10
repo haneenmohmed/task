@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #5E6670; 
+    font-size: 14px; 
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #0A65CC !important;
+}
+
+.navbar-nav .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0A65CC;
+    transition: width 0.3s ease;
+}
+
+.dropdown-toggle {
+    background-color: transparent !important;
+    border: none !important;
+    color: #000 !important;
+    font-size: 16px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-icon {
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.dropdown-menu {
+    min-width: 150px;
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item {
+    font-size: 14px;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: #5E6670 !important; 
+}
+
+.dropdown-item:hover {
+    color: #0A65CC !important; 
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.phone-number {
+    font-size: 14px;
+    line-height: 48px; 
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.phone-icon {
+    font-size: 16px;
+    color: #000;
+    margin-right: 8px; 
+}
+
+.flag-icon {
+    width: 20px;
+    height: auto;
+}
+
+.navbar {
+    height: 48px;
+}
+
+.d-flex .me-3 {
+    margin-right: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+}
+@media (max-width: 767.98px) {
+    .phone-number, 
+    .dropdown {
+        display: none;
+    }
+
+    .navbar-collapse {
+        background-color: #f0f0f0; /* Gray background */
+        padding: 10px;
+        z-index: 999;
+    }
+}

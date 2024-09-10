@@ -1,0 +1,20 @@
+
+.most-popular-col p {
+    font-size: 16px; 
+    color: black; 
+    transition: color 0.3s, text-decoration 0.3s; 
+  }
+  
+  .most-popular-col p:hover {
+    color: #0A65CC; 
+    text-decoration: underline; 
+  }
+  
+
+  .most-popular-col span {
+    color: #767F8C;
+  }
+  .spacer{
+    height: 20px;
+    border: none;
+  }

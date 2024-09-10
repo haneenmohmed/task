@@ -1,0 +1,119 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.find-job-title {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.shadow-sm {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.find-job-container {
+  padding: 20px;
+}
+
+.custom-pagination .pagination-item,
+.custom-pagination .prev-next-btn {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f4ff;
+  color: #0A65CC;
+  font-size: 16px;
+  border: 1px solid #d1d7e0;
+}
+
+.custom-pagination .pagination-item.active {
+  background-color: #0A65CC;
+  color: white;
+}
+
+.custom-pagination .prev-next-btn:hover,
+.custom-pagination .pagination-item:hover {
+  background-color: #e3e8ff;
+}
+/* Ensure the container stays responsive and aligns the content in the center */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Breadcrumb and title alignment */
+.find-job-title {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+/* Style for the breadcrumb */
+.breadcrumb {
+  font-size: 14px;
+  color: #6c757d;
+  margin-right: 20px;
+}
+
+/* Input fields and button spacing */
+.find-job-title h4 {
+  margin-bottom: 1rem;
+}
+
+.d-flex.w-100 {
+  width: 100%;
+  max-width: 800px;
+}
+
+.d-flex.justify-content-center .me-2 {
+  margin-right: 1rem;
+}
+
+.custom-pagination {
+  margin-top: 2rem;
+}
+.related-jobs {
+  margin-top: 3rem;
+}
+
+.related-job-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.related-job-card:hover {
+  transform: translateY(-5px);
+}
+
+.related-job-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.salary-location {
+  margin-top: 0.5rem;
+}
+
+.related-jobs h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.company-name {
+  font-size: 0.875rem;
+  color: #6c757d;
+}

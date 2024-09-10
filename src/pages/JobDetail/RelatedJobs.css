@@ -1,0 +1,121 @@
+.related-jobs {
+    padding: 20px;
+  }
+  
+  .related-jobs h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .related-job-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .related-job-card:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .related-job-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .job-type-badge {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .salary-location {
+    font-size: 14px;
+    color: #767F8C;
+    margin-top: 10px;
+  }
+  
+  .company-name {
+    font-size: 13px;
+    margin: 0;
+  }
+  
+  .related-job-card h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .related-job-card .text-muted {
+    color: #767F8C !important;
+  }
+  .related-job-card {
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s;
+  }
+  
+  .related-job-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .related-job-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .job-title-type-salary .job-type-badge {
+    background-color: #e7f6ea;
+    color: #0ba02c;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .salary-location {
+    font-size: 14px;
+    color: #767f8c;
+  }
+  
+
+   .related-job-card {
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s;
+  }
+  
+  .related-job-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    padding: 10px;
+    background-color: #f2f2f2; /* Light gray background */
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 5px; /* Slight border radius */
+  }
+  
+  .related-job-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  
+  .job-title-type-salary .job-type-badge {
+    background-color: #e7f6ea !important;
+    color: #0ba02c;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .salary-location {
+    font-size: 14px;
+    color: #767f8c;
+  }
+  
+  .company-name {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  

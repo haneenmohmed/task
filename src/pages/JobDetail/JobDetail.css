@@ -1,0 +1,100 @@
+.job-detail-container {
+  padding: 2rem 0;
+}
+
+.apply-now-btn {
+  background-color: #0a65cc;
+  border: none;
+}
+
+.share-job button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.related-jobs h5 {
+  margin-bottom: 1.5rem;
+}
+
+.related-job-card h6 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.related-job-card .badge {
+  margin-bottom: 0.5rem;
+}
+.salary-location-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.salary-section,
+.job-location-section {
+  flex: 1;
+  text-align: center;
+}
+
+.vertical-divider {
+  width: 1px;
+  height: 50px;
+  background-color: #e0e0e0;
+  margin: 0 15px;
+}
+
+.salary-text {
+  color: #28a745;
+}
+
+.job-location {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.card-bod{
+  width: 500px;
+}
+.share-btn {
+  padding: 0.25rem 0.4rem;
+  font-size: 0.875rem;
+  width: 35px;
+  height: 35px; 
+  margin-right: 8px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-link-btn {
+  width: 140px; 
+  height: 35px; 
+  font-size: 1rem; 
+  margin-right: 10px;
+}
+.overview-item {
+  margin-bottom: 10px; 
+}
+
+.overview-item i {
+  font-size: 1.2rem; 
+  margin-right: 8px; 
+  color: #007bff; 
+
+}
+
+.overview-title {
+  font-weight: bold;
+  margin-right: 5px; 
+}
+
+.overview-value {
+  font-weight: normal;
+}
+

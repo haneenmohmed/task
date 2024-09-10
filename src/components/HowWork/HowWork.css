@@ -1,0 +1,113 @@
+
+  .steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  h2 {
+    text-align: center; 
+    margin-bottom: 40px; 
+    margin-top:20px ;
+  }
+  .sec-hw {
+    padding-top: 5px; 
+    margin-top: 0;
+    padding-bottom: 20px; 
+  }
+  
+  .container-hw {
+    padding-top: 10px;
+  
+}
+  .step {
+    width: 310px;
+    padding: 20px;
+    background-color: transparent; 
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .icon-hw {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; 
+    transition: background-color 0.1s ease;
+  }
+  .step .icon-hw svg{
+    color: #0A65CC;
+  }
+
+  .step:hover .icon-hw svg{
+    color: #ffff;
+  }
+  .step:hover .icon-hw {
+    background-color: #0A65CC; 
+    color: white;
+  }
+  
+   
+  h3 {
+    margin-bottom: 10px;
+    color: #18191C;
+    font-size: 18px;
+  }
+  
+  p {
+    color: #888;
+  }
+  
+  /* Hover Effect */
+  .step:hover {
+    background-color: white; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step:hover .icon {
+    background-color: #0A65CC;
+  }
+  
+  /* Arrow Styles */
+  .arrow {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 50%; 
+    z-index: 2; 
+  }
+  
+  .arrow1 {
+    left: calc(20%); 
+  
+  .arrow2 {
+    left: calc(50%);
+  }
+  
+  .arrow3 {
+    left: calc(80%); 
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .steps-container {
+      flex-direction: column;
+    }
+  
+    .arrow {
+      display: none; 
+    }
+  
+    .step {
+      margin-bottom: 30px;
+    }
+  }
+}

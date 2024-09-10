@@ -1,0 +1,124 @@
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #18191C;
+}
+
+.category-card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    width: 310px;
+}
+
+.icon-text-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.icon-pc {
+    background-color: #E7F0FA; 
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 15px;
+    
+}
+
+.icon-pc svg {
+    color: #0A65CC; /* Icon color */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.category-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3F3D56; 
+}
+
+.view-all {
+    color: #007BFF;
+    text-decoration: none; 
+    border: 1px solid #E7F0FA; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow-pc {
+    margin-left: 5px; 
+    color: #007BFF; 
+}
+
+
+
+/* Responsive adjustments */
+@media (min-width: 992px) {
+    .category-card {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .popular-category-section .row {
+        flex-direction: column;
+    }
+}
+.category-card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    width: 310px;
+    transition: all 0.3s ease; 
+}
+
+.category-card:hover {
+    background-color: #FFFFFF;
+    border-radius: 10px; 
+    border: 1px solid #E7F0FA; 
+}
+
+.icon-pc {
+    background-color: #E7F0FA; 
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 15px;
+    transition: background-color 0.3s ease; 
+}
+
+.category-card:hover .icon-pc {
+    background-color: #0A65CC;
+}
+
+.icon-pc svg {
+    color: #0A65CC; 
+    transition: color 0.3s ease; 
+}
+
+.category-card:hover .icon-pc svg {
+    color: #FFFFFF; 
+}

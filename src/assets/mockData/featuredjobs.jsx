@@ -1,0 +1,103 @@
+import  {google}  from "../images/images";
+
+
+
+const jobs = [
+    {
+      title: "Technical Support Specialist",
+      type: "Part-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+      title: "Senior UX Designer",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+      title: "Marketing Officer",
+      type: "Internship",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+      title: "Junior Graphic Designer",
+      type: "Internship",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+      title: "Software Engineer",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+      title: "Front End Developer",
+      type: "Part-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+      title: "Interaction Designer",
+      type: "Part-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+      title: "Visual Designer",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+      title: "Project Manager",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+      title: "Marketing Manager",
+      type: "Internship",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      logo: google,
+    },
+    {
+        title: "Senior UX Designer",
+        type: "Full-Time",
+        salary: "$20,000 - $25,000",
+        company: "Google Inc.",
+        location: "Dhaka, Bangladesh",
+        logo: google,
+      },
+      {
+        title: "Marketing Manager",
+        type: "Internship",
+        salary: "$20,000 - $25,000",
+        company: "Google Inc.",
+        location: "Dhaka, Bangladesh",
+        logo: google,
+      },
+  ];
+  export default jobs ;
